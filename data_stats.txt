@@ -1,0 +1,32 @@
+--- Original Dataset ---
+Words: 1 198 590
+Sentences: 64 541
+Words per Sentence: 18.57
+Amount of Speakers: 267
+
+Speaker counties:
+    'Innlandet': 15
+    'Trøndelag': 20
+    'Møre og Romsdal': 15
+    'Viken': 36
+    'Vestfold og Telemark': 13
+    'Rogaland': 15
+    'Troms og Finnmark fylke': 17
+    'Vestland': 29
+    None (No WikiData): 63 
+    'Oslo Municipality': 22
+    'Agder': 11
+    'Nordland': 11
+
+Dialects: 
+    'Eastern Norway': 116
+    'Northern Norway': 33
+    'Western Norway': 70
+    'Trøndelag': 28
+    'unclear': 1
+    'Southern Norway': 19
+
+Genders:
+    'female': 111
+    'male': 154
+    None: 2

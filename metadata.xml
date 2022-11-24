@@ -1,0 +1,420 @@
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.openarchives.org/OAI/2.0/" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/          http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2022-11-08T15:00:06.318Z</responseDate>
+  <request verb="GetRecord">https://www.nb.no/sprakbanken/oai</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:nb.no:sbr-58</identifier>
+        <datestamp/>
+      </header>
+      <metadata>
+        <CMD xmlns="http://www.clarin.eu/cmd/" CMDVersion="1.1" xsi:schemaLocation="http://www.clarin.eu/cmd/ http://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/profiles/clarin.eu:cr1:p_1407745711925/xsd">
+          <Header>
+            <MdCreator>Arne Martinus Lindstad</MdCreator>
+            <MdCreationDate>2021-06-17</MdCreationDate>
+            <MdSelfLink>https://www.nb.no/sprakbanken/oai?verb=GetRecord&amp;identifier=oai:nb.no:sbr-58&amp;metadataPrefix=cmdi</MdSelfLink>
+            <MdProfile>clarin.eu:cr1:p_1407745711925</MdProfile>
+            <MdCollectionDisplayName>SprÃ¥kbanken NB</MdCollectionDisplayName>
+          </Header>
+          <Resources>
+            <ResourceProxyList>
+              <ResourceProxy id="NPSC_1">
+                <ResourceType mimetype="application/x-gtar">Resource</ResourceType>
+                <ResourceRef>https://www.nb.no/sbfil/talegjenkjenning/npsc/v1_1/NPSC_1.tar.gz</ResourceRef>
+              </ResourceProxy>
+              <ResourceProxy id="NPSC_2">
+                <ResourceType mimetype="application/x-gtar">Resource</ResourceType>
+                <ResourceRef>https://www.nb.no/sbfil/talegjenkjenning/npsc/v1_1/NPSC_2.tar.gz</ResourceRef>
+              </ResourceProxy>
+              <ResourceProxy id="NPSC_3">
+                <ResourceType mimetype="application/x-gtar">Resource</ResourceType>
+                <ResourceRef>https://www.nb.no/sbfil/talegjenkjenning/npsc/v1_1/NPSC_3.tar.gz</ResourceRef>
+              </ResourceProxy>
+              <ResourceProxy id="NPSC_4">
+                <ResourceType mimetype="application/x-gtar">Resource</ResourceType>
+                <ResourceRef>https://www.nb.no/sbfil/talegjenkjenning/npsc/v1_1/NPSC_4.tar.gz</ResourceRef>
+              </ResourceProxy>
+              <ResourceProxy id="NPSC_5">
+                <ResourceType mimetype="application/x-gtar">Resource</ResourceType>
+                <ResourceRef>https://www.nb.no/sbfil/talegjenkjenning/npsc/v1_1/NPSC_5.tar.gz</ResourceRef>
+              </ResourceProxy>
+              <ResourceProxy id="NPSC_doc">
+                <ResourceType mimetype="application/pdf">Resource</ResourceType>
+                <ResourceRef>https://www.nb.no/sbfil/talegjenkjenning/npsc/v1_1/NPSC_doc_1_1.pdf</ResourceRef>
+              </ResourceProxy>
+            </ResourceProxyList>
+            <JournalFileProxyList/>
+            <ResourceRelationList>
+              <ResourceRelation>
+                <RelationType>describes</RelationType>
+                <Res1 ref="NPSC_doc"/>
+                <Res2 ref="NPSC_1"/>
+              </ResourceRelation>
+              <ResourceRelation>
+                <RelationType>describes</RelationType>
+                <Res1 ref="NPSC_doc"/>
+                <Res2 ref="NPSC_2"/>
+              </ResourceRelation>
+              <ResourceRelation>
+                <RelationType>describes</RelationType>
+                <Res1 ref="NPSC_doc"/>
+                <Res2 ref="NPSC_3"/>
+              </ResourceRelation>
+              <ResourceRelation>
+                <RelationType>describes</RelationType>
+                <Res1 ref="NPSC_doc"/>
+                <Res2 ref="NPSC_4"/>
+              </ResourceRelation>
+              <ResourceRelation>
+                <RelationType>describes</RelationType>
+                <Res1 ref="NPSC_doc"/>
+                <Res2 ref="NPSC_5"/>
+              </ResourceRelation>
+            </ResourceRelationList>
+            <IsPartOfList/>
+          </Resources>
+          <Components>
+            <corpusProfile>
+              <resourceCommonInfo ComponentId="clarin.eu:cr1:c_1396012485126">
+                <resourceType>corpus</resourceType>
+                <identificationInfo ComponentId="clarin.eu:cr1:c_1396012485125">
+                  <resourceName xml:lang="nn">Stortingskorpuset</resourceName>
+                  <resourceName xml:lang="en">Norwegian Parliamentary Speech Corpus</resourceName>
+                  <description xml:lang="nn">Dette er versjon 1.1 av Stortingskorpuset (engelsk forkorting NPSC). Korpuset er utvikla ved Språkbanken på Nasjonalbiblioteket. NPSC er sett saman av lydopptak av møte i Stortinget, ortografisk transkriberte til høvesvis bokmål eller nynorsk. Det finst òg metadata om dei ulike talarane, og dei offisielle referata frå dei ulike debattane er òg inkluderte i korpuset. Opptaka utgjer 140 timar med tale frå i alt 267 ulike talarar, og inneheld 65 000 setningar og 1,2 millionar ord.
+
+Følgjande endringar skil versjon 1.1. frå versjon 1.0:
+- Dataa er delte opp i offisielle trinings-, evaluerings- og testsett.
+- Manuell dialektannotering er lagt til for kvar enkelt talar.
+- Sluttpunktet for ei setning (sentence_id 45886) i 20172018 er endra, av di setninga inneheldt ei 30 minutt lang pause i den førre utgåva (versjon 1.0). Den tilsvarande lydfila (20171208-085509_6122400_6124160.wav) vart forkorta i tråd med dette.
+- Nokre metadata til transkripsjonane i 20171213 mangla i json-filene. Desse er lagt til i denne versjonen.
+- Dokumentasjonen er oppdatert med endringane over.
+
+Transkripsjonsarbeidet er først gjort automatisk; resultatet av den automatiske transkripsjonen er manuelt sjekka og korrigert av kvalifiserte lingvistar og filologar. For å sikre konsistens og nøyaktigheit, er alle transkripsjonane korrekturlesne.
+
+Korpuset er primært tenkt som eit open source-datasett for ASR-utvikling (Automatic Speech Recognition, automatisk taleattkjenning).
+
+Lydfilene i korpuset inneheld opptak frå heile dagar med plenumsmøte frå 2017 og 2018 (eller, viss eit møte varar i meir enn seks timar, dei første seks timane den aktuelle dagen). Sidan desse lydfilene er ganske store, finst det òg individuelle lydfiler for kvar enkelt setning.
+
+Betaversjonar av korpuset vart publiserte i 2020 og 2021. Me har kjørt postprosesseringsskript sidan siste versjon (0.2). Dette har ført til endringar i alle transkripsjonane, og transkripsjonane har ei anna formatering enn i dei tidligare versjonane. Dei gamle transkripsjonsfilane bør difor erstattast med filene i denne versjonen.
+
+Me set stor pris på attendemeldingar og forslag til forbetringar. Kontakt oss på sprakbanken@nb.no.</description>
+                  <description xml:lang="en">This is version 1.1 of The Norwegian Parliamentary Speech Corpus (NPSC).
+
+The following changes have been made in the update from version 1.0 to 1.1:
+- The data was split in an official training, evaluation and test set.
+- Manual dialect annotations were added for each speaker.
+- The end time of one sentence in 20171208 (sentence_id 45886), was changed, as a 30 minute break was included in the sentence time span in version 1.0. The corresponding audio file (20171208-085509_6122400_6124160.wav was shortened accordingly.
+- Some of the metadata in the transcriptions of 20171213 were lacking in the json transcription files. These are added in version 1.1.
+- The documentation was updated to reflect these changes.
+
+The corpus is developed by the Norwegian Language Bank at the National Library of Norway from 2019-2021. The NPSC consists of audio recordings of meetings in Stortinget (the Norwegian parliament), and corresponding orthographic transcriptions in either Norwegian Bokmål or Norwegian Nynorsk, as well as various metadata about the speakers. The official proceedings from the meetings are also included in the corpus for reference. The recordings amount to 140 hours of running speech (including pauses) from 267 unique speakers, and contain 65.000 sentences and 1.2 million words.
+
+Transcription was first done automatically; subsequently, the output of the automatic process was manually checked and corrected by trained linguists and philologists. Finally, all transcriptions were proofread to ensure consistency and accuracy.
+
+NPSC is primarily intended as an open-source dataset for ASR development.
+
+The audio files in the corpus contain the speech of entire days of plenary meetings from 2017 and 2018 (or, if a meeting lasts more than six hours, the first six hours of a day). Since the audio files are quite large, individual audio files for each sentence are also included.
+
+Betareleases of the NPSC were published in 2020 and 2021. Note that we have run postprocessing scripts since the last release (0.2) which affect all transcriptions, and the formatting of the transcriptions is different from previous releases. Users should therefore replace old transcription files with the files in this release.
+
+We greatly appreciate any feedback and suggestions for improvement. Please use our e-mail address, sprakbanken@nb.no.</description>
+                  <resourceShortName xml:lang="nn">NPSC</resourceShortName>
+                  <resourceShortName xml:lang="en">NPSC</resourceShortName>
+                  <url description="resource homepage">https://www.nb.no/sprakbanken/ressurskatalog/oai-nb-no-sbr-58/</url>
+                  <PID description="hdl">hdl:21.11146/58</PID>
+                  <identifier>sbr-58</identifier>
+                </identificationInfo>
+                <distributionInfo ComponentId="clarin.eu:cr1:c_1396012485124">
+                  <licenceInfo ComponentId="clarin.eu:cr1:c_1396012485158">
+                    <userCategory>Public</userCategory>
+                    <distributionAccessMedium>downloadable</distributionAccessMedium>
+                    <downloadLocation description="resource homepage">https://www.nb.no/sprakbanken/ressurskatalog/oai-nb-no-sbr-58/</downloadLocation>
+                    <licence ComponentId="clarin.eu:cr1:c_1447674760330">
+                      <licenceFamily>Creative Commons (CC)</licenceFamily>
+                      <licenceName>Creative_Commons-ZERO (CC-ZERO)</licenceName>
+                      <licenceURL>https://creativecommons.org/publicdomain/zero/1.0/</licenceURL>
+                    </licence>
+                    <licensor>
+                      <actorInfo ComponentId="clarin.eu:cr1:c_1396012485194">
+                        <actorType>organization</actorType>
+                        <role xml:lang="en">Licensor</role>
+                        <organizationInfo ComponentId="clarin.eu:cr1:c_1407745711883">
+                          <organizationName xml:lang="nn">Nasjonalbiblioteket</organizationName>
+                          <organizationName xml:lang="en">National Library of Norway</organizationName>
+                          <organizationShortName xml:lang="nn">NB</organizationShortName>
+                          <organizationShortName xml:lang="en">NLN</organizationShortName>
+                          <departmentName xml:lang="nn">Språkbanken</departmentName>
+                          <departmentName xml:lang="en">The Language Bank</departmentName>
+                        </organizationInfo>
+                        <communicationInfo ComponentId="clarin.eu:cr1:c_1352813745460">
+                          <email>sprakbanken@nb.no</email>
+                          <url>https://www.nb.no/sprakbanken/</url>
+                          <address>P.O. Box 2674 Solli</address>
+                          <zipCode>0203</zipCode>
+                          <city>Oslo</city>
+                          <region>Oslo</region>
+                          <country>Norway</country>
+                        </communicationInfo>
+                      </actorInfo>
+                    </licensor>
+                    <distributionRightsHolder>
+                      <actorInfo ComponentId="clarin.eu:cr1:c_1396012485194">
+                        <actorType>organization</actorType>
+                        <role xml:lang="en">Distribution Rights Holder</role>
+                        <organizationInfo ComponentId="clarin.eu:cr1:c_1407745711883">
+                          <organizationName xml:lang="nn">Nasjonalbiblioteket</organizationName>
+                          <organizationName xml:lang="en">National Library of Norway</organizationName>
+                          <organizationShortName xml:lang="nn">NB</organizationShortName>
+                          <organizationShortName xml:lang="en">NLN</organizationShortName>
+                          <departmentName xml:lang="nn">Språkbanken</departmentName>
+                          <departmentName xml:lang="en">The Language Bank</departmentName>
+                        </organizationInfo>
+                        <communicationInfo ComponentId="clarin.eu:cr1:c_1352813745460">
+                          <email>sprakbanken@nb.no</email>
+                          <url>https://www.nb.no/sprakbanken/</url>
+                          <address>P.O. Box 2674 Solli</address>
+                          <zipCode>0203</zipCode>
+                          <city>Oslo</city>
+                          <region>Oslo</region>
+                          <country>Norway</country>
+                        </communicationInfo>
+                      </actorInfo>
+                    </distributionRightsHolder>
+                  </licenceInfo>
+                </distributionInfo>
+                <contact>
+                  <actorInfo ComponentId="clarin.eu:cr1:c_1396012485194">
+                    <actorType>organization</actorType>
+                    <organizationInfo ComponentId="clarin.eu:cr1:c_1407745711883">
+                      <organizationName xml:lang="nn">Nasjonalbiblioteket</organizationName>
+                      <organizationName xml:lang="en">National Library of Norway</organizationName>
+                      <organizationShortName xml:lang="nn">NB</organizationShortName>
+                      <organizationShortName xml:lang="en">NLN</organizationShortName>
+                      <departmentName xml:lang="nn">Språkbanken</departmentName>
+                      <departmentName xml:lang="en">The Language Bank</departmentName>
+                    </organizationInfo>
+                    <communicationInfo ComponentId="clarin.eu:cr1:c_1352813745460">
+                      <email>sprakbanken@nb.no</email>
+                      <url>https://www.nb.no/sprakbanken/</url>
+                      <address>P.O. Box 2674 Solli</address>
+                      <zipCode>0203</zipCode>
+                      <city>Oslo</city>
+                      <region>Oslo</region>
+                      <country>Norway</country>
+                    </communicationInfo>
+                  </actorInfo>
+                </contact>
+                <metadataInfo ComponentId="clarin.eu:cr1:c_1407745711922">
+                  <metadataCreationDate>2020-10-26</metadataCreationDate>
+                  <metadataLanguageName>English</metadataLanguageName>
+                  <metadataLanguageId>en</metadataLanguageId>
+                  <metadataLastDateUpdated>2022-08-30</metadataLastDateUpdated>
+                  <metadataCreator>
+                    <actorInfo ComponentId="clarin.eu:cr1:c_1396012485194">
+                      <actorType>person</actorType>
+                      <role xml:lang="en">Metadata Creator</role>
+                      <personInfo ComponentId="clarin.eu:cr1:c_1396012485192">
+                        <surname xml:lang="nn">Lindstad</surname>
+                        <givenName xml:lang="nn">Arne Martinus</givenName>
+                        <affiliation>
+                          <organizationInfo ComponentId="clarin.eu:cr1:c_1407745711883">
+                            <organizationName xml:lang="nn">Nasjonalbiblioteket</organizationName>
+                            <organizationName xml:lang="en">National Library of Norway</organizationName>
+                            <organizationShortName xml:lang="nn">NB</organizationShortName>
+                            <organizationShortName xml:lang="en">NLN</organizationShortName>
+                            <departmentName xml:lang="nn">Språkbanken</departmentName>
+                            <departmentName xml:lang="en">The Language Bank</departmentName>
+                          </organizationInfo>
+                        </affiliation>
+                      </personInfo>
+                    </actorInfo>
+                  </metadataCreator>
+                </metadataInfo>
+                <versionInfo ComponentId="clarin.eu:cr1:c_1430905751648">
+                  <version>1.1</version>
+                  <revision ref="NPSC_doc">Revisions from earlier versions are described in the documentation file.</revision>
+                  <lastDateUpdated>2021-11-30</lastDateUpdated>
+                </versionInfo>
+                <validationInfo ComponentId="clarin.eu:cr1:c_1407745711923">
+                  <validated>true</validated>
+                  <validationType>content</validationType>
+                  <validationMode>mixed</validationMode>
+                  <validationModeDetails>Audio files with manually transcribed, and proofread transcriptions, manual time alignment of text and audio.</validationModeDetails>
+                  <validationExtent>full</validationExtent>
+                  <validator>
+                    <actorInfo ComponentId="clarin.eu:cr1:c_1396012485194">
+                      <actorType>organization</actorType>
+                      <role xml:lang="en">Resource Validator</role>
+                      <organizationInfo ComponentId="clarin.eu:cr1:c_1407745711883">
+                        <organizationName xml:lang="nn">Nasjonalbiblioteket</organizationName>
+                        <organizationName xml:lang="nb">National Library of Norway</organizationName>
+                        <organizationShortName xml:lang="nn">NB</organizationShortName>
+                        <organizationShortName xml:lang="en">NLN</organizationShortName>
+                        <departmentName xml:lang="nn">Språkbanken</departmentName>
+                        <departmentName xml:lang="en">The Language Bank</departmentName>
+                      </organizationInfo>
+                      <communicationInfo ComponentId="clarin.eu:cr1:c_1352813745460">
+                        <email>sprakbanken@nb.no</email>
+                        <url>https://www.nb.no/sprakbanken/</url>
+                        <address>P.O. Box 2674 Solli</address>
+                        <zipCode>0203</zipCode>
+                        <city>Oslo</city>
+                        <region>Oslo</region>
+                        <country>Norway</country>
+                      </communicationInfo>
+                    </actorInfo>
+                  </validator>
+                </validationInfo>
+                <resourceDocumentationInfo ComponentId="clarin.eu:cr1:c_1355150532301">
+                  <documentationUnstructured ComponentId="clarin.eu:cr1:c_1355150532302">
+                    <role>documentation</role>
+                    <documentUnstructured ref="NPSC_doc">Documentation file</documentUnstructured>
+                  </documentationUnstructured>
+                </resourceDocumentationInfo>
+                <resourceCreationInfo ComponentId="clarin.eu:cr1:c_1407745711921">
+                  <creationStartDate>2019-08-01</creationStartDate>
+                  <creationEndDate>2021-11-30</creationEndDate>
+                  <resourceCreator>
+                    <actorInfo ComponentId="clarin.eu:cr1:c_1396012485194">
+                      <actorType>organization</actorType>
+                      <role xml:lang="en">Resource Creator</role>
+                      <organizationInfo ComponentId="clarin.eu:cr1:c_1407745711883">
+                        <organizationName xml:lang="nn">Nasjonalbiblioteket</organizationName>
+                        <organizationName xml:lang="en">National Library of Norway</organizationName>
+                        <organizationShortName xml:lang="nn">NB</organizationShortName>
+                        <organizationShortName xml:lang="en">NLN</organizationShortName>
+                        <departmentName xml:lang="nn">Språkbanken</departmentName>
+                        <departmentName xml:lang="en">The Language Bank</departmentName>
+                      </organizationInfo>
+                      <communicationInfo ComponentId="clarin.eu:cr1:c_1352813745460">
+                        <email>sprakbanken@nb.no</email>
+                        <url>https://www.nb.no/sprakbanken/</url>
+                        <address>P.O. Box 2674 Solli</address>
+                        <zipCode>0203</zipCode>
+                        <city>Oslo</city>
+                        <region>Oslo</region>
+                        <country>Norway</country>
+                      </communicationInfo>
+                    </actorInfo>
+                  </resourceCreator>
+                </resourceCreationInfo>
+              </resourceCommonInfo>
+              <corpusInfo ComponentId="clarin.eu:cr1:c_1407745711878">
+                <corpusType>Multimodal Corpus</corpusType>
+                <corpusPartInfo ComponentId="clarin.eu:cr1:c_1407745711885">
+                  <mediaType>audio</mediaType>
+                  <corpusAudioInfo ComponentId="clarin.eu:cr1:c_1404130561236">
+                    <audioSizeInfo ComponentId="clarin.eu:cr1:c_1360230992160">
+                      <sizeInfo ComponentId="clarin.eu:cr1:c_1353678848785">
+                        <size>140</size>
+                        <sizeUnit>hours</sizeUnit>
+                      </sizeInfo>
+                      <sizeInfo ComponentId="clarin.eu:cr1:c_1353678848785">
+                        <size>64541</size>
+                        <sizeUnit>sentences</sizeUnit>
+                      </sizeInfo>
+                      <sizeInfo ComponentId="clarin.eu:cr1:c_1353678848785">
+                        <size>1198590</size>
+                        <sizeUnit>words</sizeUnit>
+                      </sizeInfo>
+                      <sizeInfo ComponentId="clarin.eu:cr1:c_1353678848785">
+                        <size>96,4</size>
+                        <sizeUnit>gb</sizeUnit>
+                      </sizeInfo>
+                      <sizeInfo ComponentId="clarin.eu:cr1:c_1353678848785">
+                        <size>5</size>
+                        <sizeUnit>files</sizeUnit>
+                      </sizeInfo>
+                      <durationOfEffectiveSpeechInfo ComponentId="clarin.eu:cr1:c_1360230992158">
+                        <size>126</size>
+                        <durationUnit>hours</durationUnit>
+                      </durationOfEffectiveSpeechInfo>
+                      <durationOfAudioInfo ComponentId="clarin.eu:cr1:c_1360230992159">
+                        <size>140</size>
+                        <durationUnit>hours</durationUnit>
+                      </durationOfAudioInfo>
+                    </audioSizeInfo>
+                    <settingInfo ComponentId="clarin.eu:cr1:c_1360230992162"/>
+                    <audioFormatInfo ComponentId="clarin.eu:cr1:c_1427452477070">
+                      <mimeType>audio/wav</mimeType>
+                      <signalEncoding>linearPCM</signalEncoding>
+                      <samplingRate>48000</samplingRate>
+                      <quantization>16</quantization>
+                      <byteOrder>littleEndian</byteOrder>
+                      <signConvention>signedInteger</signConvention>
+                      <numberOfTracks>2</numberOfTracks>
+                      <recordingQuality>medium</recordingQuality>
+                    </audioFormatInfo>
+                  </corpusAudioInfo>
+                  <corpusTextInfo ComponentId="clarin.eu:cr1:c_1396012485188">
+                    <textFormatInfo ComponentId="clarin.eu:cr1:c_1427452477072">
+                      <mimeType>application/json</mimeType>
+                      <sizePerTextFormat ComponentId="clarin.eu:cr1:c_1447674760342">
+                        <sizeInfo ComponentId="clarin.eu:cr1:c_1353678848785">
+                          <size>64541</size>
+                          <sizeUnit>sentences</sizeUnit>
+                        </sizeInfo>
+                        <sizeInfo ComponentId="clarin.eu:cr1:c_1353678848785">
+                          <size>1198590</size>
+                          <sizeUnit>words</sizeUnit>
+                        </sizeInfo>
+                      </sizePerTextFormat>
+                    </textFormatInfo>
+                    <characterEncodingInfo ComponentId="clarin.eu:cr1:c_1447674760355">
+                      <characterEncoding>UTF-8</characterEncoding>
+                    </characterEncodingInfo>
+                  </corpusTextInfo>
+                </corpusPartInfo>
+                <corpusPartGeneralInfo ComponentId="clarin.eu:cr1:c_1407745711882">
+                  <lingualityInfo ComponentId="clarin.eu:cr1:c_1355150532313">
+                    <lingualityType>monolingual</lingualityType>
+                  </lingualityInfo>
+                  <languageInfo ComponentId="clarin.eu:cr1:c_1428388179423">
+                    <languageId>no</languageId>
+                    <languageName>Norwegian</languageName>
+                    <sizePerLanguage ComponentId="clarin.eu:cr1:c_1447674760349">
+                      <sizeInfo ComponentId="clarin.eu:cr1:c_1353678848785">
+                        <size>140</size>
+                        <sizeUnit>hours</sizeUnit>
+                      </sizeInfo>
+                      <sizeInfo ComponentId="clarin.eu:cr1:c_1353678848785">
+                        <size>64541</size>
+                        <sizeUnit>sentences</sizeUnit>
+                      </sizeInfo>
+                      <sizeInfo ComponentId="clarin.eu:cr1:c_1353678848785">
+                        <size>1198590</size>
+                        <sizeUnit>words</sizeUnit>
+                      </sizeInfo>
+                      <sizeInfo ComponentId="clarin.eu:cr1:c_1353678848785">
+                        <size>96,4</size>
+                        <sizeUnit>gb</sizeUnit>
+                      </sizeInfo>
+                      <sizeInfo ComponentId="clarin.eu:cr1:c_1353678848785">
+                        <size>5</size>
+                        <sizeUnit>files</sizeUnit>
+                      </sizeInfo>
+                    </sizePerLanguage>
+                    <languageVarietyInfo ComponentId="clarin.eu:cr1:c_1428388179422">
+                      <languageVarietyType>dialect</languageVarietyType>
+                      <languageVarietyName>Norwegian dialects</languageVarietyName>
+                    </languageVarietyInfo>
+                  </languageInfo>
+                  <modalityInfo ComponentId="clarin.eu:cr1:c_1447674760356">
+                    <modalityType>spokenLanguage</modalityType>
+                    <modalityTypeDetails>Formal speech</modalityTypeDetails>
+                  </modalityInfo>
+                  <annotationInfo ComponentId="clarin.eu:cr1:c_1407745711924">
+                    <annotationType>speechAnnotation-orthographicTranscription</annotationType>
+                  </annotationInfo>
+                  <timeCoverageInfo ComponentId="clarin.eu:cr1:c_1447674760358">
+                    <timeCoverage>2017-02-07 - 2018-02-01</timeCoverage>
+                  </timeCoverageInfo>
+                </corpusPartGeneralInfo>
+              </corpusInfo>
+            </corpusProfile>
+          </Components>
+        </CMD>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>
