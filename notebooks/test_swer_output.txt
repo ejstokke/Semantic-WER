@@ -1,0 +1,216 @@
+Transcript: Det opereres med ulike tall på forekomst av autisme , men cirka 1 % av befolkningen har autisme .
+Gold label: det opereres med ulike tall på forekomst av autisme  men cirka én prosent av befolkningen har autisme .
+SWER: 0.06111547560772233
+Binary-step: 0.0
+Case-insensitive SWER 0.04279567725835959
+WER: 0.21052631578947367
+Stop Words: 0.06775982232573602
+(['opereres', 'ulike', 'tall', 'forekomst', 'autisme', ',', 'cirka', '1', '%', 'befolkningen', 'autisme', '.'], ['opereres', 'ulike', 'tall', 'forekomst', 'autisme', '', 'cirka', 'én', 'prosent', 'befolkningen', 'autisme', '.'])
+
+Transcript: Dessverre er oppfølgingen av barn , ungdom og voksne med autisme svært varierende , både med hensyn til hvilken kommune man bor i og hvilken helseregion eller hvilket helseforetak man tilhører .
+Gold label: dessverre er oppfølgingen av barn  ungdom og voksne med autisme svært varierende  både med hensyn til hvilken kommune man bor i og hvilken helseregion eller hvilket helseforetak man tilhører .
+SWER: 0.031175405020930014
+Binary-step: 0.0
+Case-insensitive SWER 0.021138317744987735
+WER: 0.09375
+Stop Words: 0.05542294225943114
+(['Dessverre', 'oppfølgingen', 'barn', ',', 'ungdom', 'voksne', 'autisme', 'svært', 'varierende', ',', 'hensyn', 'kommune', 'bor', 'helseregion', 'hvilket', 'helseforetak', 'tilhører', '.'], ['dessverre', 'oppfølgingen', 'barn', '', 'ungdom', 'voksne', 'autisme', 'svært', 'varierende', '', 'hensyn', 'kommune', 'bor', 'helseregion', 'hvilket', 'helseforetak', 'tilhører', '.'])
+
+Transcript: Mangel på nasjonale faglige retningslinjer fører til at spesialisthelsetjenesten ofte gir behandling som ikke er kunnskapsbasert .
+Gold label: mangel på nasjonale faglige retningslinjer fører til at spesialisthelsetjenesten ofte gir behandling som ikke er kunnskapsbasert .
+SWER: 0.030275228200462734
+Binary-step: 0.058823529411764705
+Case-insensitive SWER 0.0
+WER: 0.058823529411764705
+Stop Words: 0.046788989037078774
+(['Mangel', 'nasjonale', 'faglige', 'retningslinjer', 'fører', 'spesialisthelsetjenesten', 'ofte', 'gir', 'behandling', 'kunnskapsbasert', '.'], ['mangel', 'nasjonale', 'faglige', 'retningslinjer', 'fører', 'spesialisthelsetjenesten', 'ofte', 'gir', 'behandling', 'kunnskapsbasert', '.'])
+
+Transcript: Kommunenes oppfølging mot barnehage skole .
+Gold label: kommunenes oppfølging mot barnehage skole 
+SWER: 0.10760560750233537
+Binary-step: 0.0
+Case-insensitive SWER 0.05126798791538317
+WER: 0.3333333333333333
+Stop Words: 0.12912672900280245
+(['Kommunenes', 'oppfølging', 'barnehage', 'skole', '.'], ['kommunenes', 'oppfølging', 'barnehage', 'skole', ''])
+
+Transcript: Bolig arbeid avlastning , bpa og fritid er ofte fraværende eller mangelfull .
+Gold label: bolig arbeid avlastning  BPA og fritid er ofte fraværende eller mangelfull .
+SWER: 0.07876004021872081
+Binary-step: 0.07692307692307693
+Case-insensitive SWER 0.026016391070754135
+WER: 0.23076923076923078
+Stop Words: 0.10238805228433705
+(['Bolig', 'arbeid', 'avlastning', ',', 'bpa', 'fritid', 'ofte', 'fraværende', 'mangelfull', '.'], ['bolig', 'arbeid', 'avlastning', '', 'BPA', 'fritid', 'ofte', 'fraværende', 'mangelfull', '.'])
+
+Transcript: Ikke minst har kommunene og pårørende behov for kompetanse og veiledning fra spesialisthelsetjenesten , noe som også er fraværende mange steder  vil statsråden ta initiativ til at behandling og oppfølging av barn , ungdom og voksne med autisme blir helhetlig systematisk og kunnskapsbasert , og første taler er interpellanten .
+Gold label: ikke minst har kommunene og pårørende behov for kompetanse og veiledning fra spesialisthelsetjenesten  noe som også er fraværende mange steder . vil statsråden ta initiativ til at behandling og oppfølging av barn  ungdom og voksne med autisme blir helhetlig systematisk og kunnskapsbasert . og første taler er interpellanten 
+SWER: 0.032857951361270094
+Binary-step: 0.0
+Case-insensitive SWER 0.02989237594756724
+WER: 0.11764705882352941
+Stop Words: 0.052569350804342385
+(['minst', 'kommunene', 'pårørende', 'behov', 'kompetanse', 'veiledning', 'spesialisthelsetjenesten', ',', 'fraværende', 'steder', '', 'statsråden', 'ta', 'initiativ', 'behandling', 'oppfølging', 'barn', ',', 'ungdom', 'voksne', 'autisme', 'helhetlig', 'systematisk', 'kunnskapsbasert', ',', 'første', 'taler', 'interpellanten', '.'], ['minst', 'kommunene', 'pårørende', 'behov', 'kompetanse', 'veiledning', 'spesialisthelsetjenesten', '', 'fraværende', 'steder', '.', 'statsråden', 'ta', 'initiativ', 'behandling', 'oppfølging', 'barn', '', 'ungdom', 'voksne', 'autisme', 'helhetlig', 'systematisk', 'kunnskapsbasert', '.', 'første', 'taler', 'interpellanten', ''])
+
+Transcript: Representanten freddy de ruiter .
+Gold label: representanten Freddy de  Ruiter
+SWER: 0.40753751048843007
+Binary-step: 0.6
+Case-insensitive SWER 0.24571727556980702
+WER: 0.8
+Stop Words: 0.5094218881105376
+(['Representanten', 'freddy', 'ruiter', '.'], ['representanten', 'Freddy', '', 'Ruiter'])
+
+Transcript: Deretter statsråd Bent Høie .
+Gold label: deretter statsråd Bent Høie .
+SWER: 0.07955650103990419
+Binary-step: 0.0
+Case-insensitive SWER 0.0
+WER: 0.2
+Stop Words: 0.07955650103990419
+(['Deretter', 'statsråd', 'Bent', 'Høie', '.'], ['deretter', 'statsråd', 'Bent', 'Høie', '.'])
+
+Transcript: Det opereres med ulike tall på forekomst av autisme , men cirka 1 % av befolkningen har autisme .
+Gold label: det opereres med ulike tall på forekomst av autisme  men cirka én prosent av befolkningen har autisme .
+SWER: 0.10610398100711672
+Binary-step: 0.10526315789473684
+Case-insensitive SWER 0.0933159225159585
+WER: 0.21052631578947367
+Stop Words: 0.1477502106502676
+(['opereres', 'ulike', 'tall', 'forekomst', 'autisme', ',', 'cirka', '1', '%', 'befolkningen', 'autisme', '.'], ['opereres', 'ulike', 'tall', 'forekomst', 'autisme', '', 'cirka', 'én', 'prosent', 'befolkningen', 'autisme', '.'])
+
+Transcript: Dessverre er oppfølgingen av barn , ungdom og voksne med autisme svært varierende , både med hensyn til hvilken kommune man bor i og hvilken helseregion eller hvilket helseforetak man tilhører .
+Gold label: dessverre er oppfølgingen av barn  ungdom og voksne med autisme svært varierende  både med hensyn til hvilken kommune man bor i og hvilken helseregion eller hvilket helseforetak man tilhører .
+SWER: 0.05495792245661941
+Binary-step: 0.0625
+Case-insensitive SWER 0.05115534906787807
+WER: 0.09375
+Stop Words: 0.09770297325621229
+(['Dessverre', 'oppfølgingen', 'barn', ',', 'ungdom', 'voksne', 'autisme', 'svært', 'varierende', ',', 'hensyn', 'kommune', 'bor', 'helseregion', 'hvilket', 'helseforetak', 'tilhører', '.'], ['dessverre', 'oppfølgingen', 'barn', '', 'ungdom', 'voksne', 'autisme', 'svært', 'varierende', '', 'hensyn', 'kommune', 'bor', 'helseregion', 'hvilket', 'helseforetak', 'tilhører', '.'])
+
+Transcript: Mangel på nasjonale faglige retningslinjer fører til at spesialisthelsetjenesten ofte gir behandling som ikke er kunnskapsbasert .
+Gold label: mangel på nasjonale faglige retningslinjer fører til at spesialisthelsetjenesten ofte gir behandling som ikke er kunnskapsbasert .
+SWER: 0.005865918503294079
+Binary-step: 0.0
+Case-insensitive SWER 0.0
+WER: 0.058823529411764705
+Stop Words: 0.009065510414181759
+(['Mangel', 'nasjonale', 'faglige', 'retningslinjer', 'fører', 'spesialisthelsetjenesten', 'ofte', 'gir', 'behandling', 'kunnskapsbasert', '.'], ['mangel', 'nasjonale', 'faglige', 'retningslinjer', 'fører', 'spesialisthelsetjenesten', 'ofte', 'gir', 'behandling', 'kunnskapsbasert', '.'])
+
+Transcript: Kommunenes oppfølging mot barnehage skole .
+Gold label: kommunenes oppfølging mot barnehage skole 
+SWER: 0.15307702509133128
+Binary-step: 0.16666666666666666
+Case-insensitive SWER 0.11613770115642041
+WER: 0.3333333333333333
+Stop Words: 0.18369243010959752
+(['Kommunenes', 'oppfølging', 'barnehage', 'skole', '.'], ['kommunenes', 'oppfølging', 'barnehage', 'skole', ''])
+
+Transcript: Bolig arbeid avlastning , bpa og fritid er ofte fraværende eller mangelfull .
+Gold label: bolig arbeid avlastning  BPA og fritid er ofte fraværende eller mangelfull .
+SWER: 0.11859400069425459
+Binary-step: 0.15384615384615385
+Case-insensitive SWER 0.06296042962200378
+WER: 0.23076923076923078
+Stop Words: 0.15417220090253098
+(['Bolig', 'arbeid', 'avlastning', ',', 'bpa', 'fritid', 'ofte', 'fraværende', 'mangelfull', '.'], ['bolig', 'arbeid', 'avlastning', '', 'BPA', 'fritid', 'ofte', 'fraværende', 'mangelfull', '.'])
+
+Transcript: Ikke minst har kommunene og pårørende behov for kompetanse og veiledning fra spesialisthelsetjenesten , noe som også er fraværende mange steder  vil statsråden ta initiativ til at behandling og oppfølging av barn , ungdom og voksne med autisme blir helhetlig systematisk og kunnskapsbasert , og første taler er interpellanten .
+Gold label: ikke minst har kommunene og pårørende behov for kompetanse og veiledning fra spesialisthelsetjenesten  noe som også er fraværende mange steder . vil statsråden ta initiativ til at behandling og oppfølging av barn  ungdom og voksne med autisme blir helhetlig systematisk og kunnskapsbasert . og første taler er interpellanten 
+SWER: 0.06801402101242406
+Binary-step: 0.0784313725490196
+Case-insensitive SWER 0.06443197696422953
+WER: 0.11764705882352941
+Stop Words: 0.1133114077646795
+(['minst', 'kommunene', 'pårørende', 'behov', 'kompetanse', 'veiledning', 'spesialisthelsetjenesten', ',', 'fraværende', 'steder', '', 'statsråden', 'ta', 'initiativ', 'behandling', 'oppfølging', 'barn', ',', 'ungdom', 'voksne', 'autisme', 'helhetlig', 'systematisk', 'kunnskapsbasert', ',', 'første', 'taler', 'interpellanten', '.'], ['minst', 'kommunene', 'pårørende', 'behov', 'kompetanse', 'veiledning', 'spesialisthelsetjenesten', '', 'fraværende', 'steder', '.', 'statsråden', 'ta', 'initiativ', 'behandling', 'oppfølging', 'barn', '', 'ungdom', 'voksne', 'autisme', 'helhetlig', 'systematisk', 'kunnskapsbasert', '.', 'første', 'taler', 'interpellanten', ''])
+
+Transcript: Representanten freddy de ruiter .
+Gold label: representanten Freddy de  Ruiter
+SWER: 0.3886788287400565
+Binary-step: 0.4
+Case-insensitive SWER 0.2626183830568479
+WER: 0.8
+Stop Words: 0.4858485359250706
+(['Representanten', 'freddy', 'ruiter', '.'], ['representanten', 'Freddy', '', 'Ruiter'])
+
+Transcript: Deretter statsråd Bent Høie .
+Gold label: deretter statsråd Bent Høie .
+SWER: 0.04475175854801909
+Binary-step: 0.0
+Case-insensitive SWER 0.0
+WER: 0.2
+Stop Words: 0.04475175854801909
+(['Deretter', 'statsråd', 'Bent', 'Høie', '.'], ['deretter', 'statsråd', 'Bent', 'Høie', '.'])
+
+Transcript: Det opereres med ulike tall på forekomst av autisme , men cirka 1 % av befolkningen har autisme .
+Gold label: det opereres med ulike tall på forekomst av autisme  men cirka én prosent av befolkningen har autisme .
+SWER: 0.0967281792027272
+Binary-step: 0.05263157894736842
+Case-insensitive SWER 0.0850172181333037
+WER: 0.21052631578947367
+Stop Words: 0.13461059537773087
+(['opereres', 'ulike', 'tall', 'forekomst', 'autisme', ',', 'cirka', '1', '%', 'befolkningen', 'autisme', '.'], ['opereres', 'ulike', 'tall', 'forekomst', 'autisme', '', 'cirka', 'én', 'prosent', 'befolkningen', 'autisme', '.'])
+
+Transcript: Dessverre er oppfølgingen av barn , ungdom og voksne med autisme svært varierende , både med hensyn til hvilken kommune man bor i og hvilken helseregion eller hvilket helseforetak man tilhører .
+Gold label: dessverre er oppfølgingen av barn  ungdom og voksne med autisme svært varierende  både med hensyn til hvilken kommune man bor i og hvilken helseregion eller hvilket helseforetak man tilhører .
+SWER: 0.06021131956509577
+Binary-step: 0.0625
+Case-insensitive SWER 0.05286096529343652
+WER: 0.09375
+Stop Words: 0.10704234589350359
+(['Dessverre', 'oppfølgingen', 'barn', ',', 'ungdom', 'voksne', 'autisme', 'svært', 'varierende', ',', 'hensyn', 'kommune', 'bor', 'helseregion', 'hvilket', 'helseforetak', 'tilhører', '.'], ['dessverre', 'oppfølgingen', 'barn', '', 'ungdom', 'voksne', 'autisme', 'svært', 'varierende', '', 'hensyn', 'kommune', 'bor', 'helseregion', 'hvilket', 'helseforetak', 'tilhører', '.'])
+
+Transcript: Mangel på nasjonale faglige retningslinjer fører til at spesialisthelsetjenesten ofte gir behandling som ikke er kunnskapsbasert .
+Gold label: mangel på nasjonale faglige retningslinjer fører til at spesialisthelsetjenesten ofte gir behandling som ikke er kunnskapsbasert .
+SWER: 0.010412970365571109
+Binary-step: 0.0
+Case-insensitive SWER 0.0
+WER: 0.058823529411764705
+Stop Words: 0.01609277238315535
+(['Mangel', 'nasjonale', 'faglige', 'retningslinjer', 'fører', 'spesialisthelsetjenesten', 'ofte', 'gir', 'behandling', 'kunnskapsbasert', '.'], ['mangel', 'nasjonale', 'faglige', 'retningslinjer', 'fører', 'spesialisthelsetjenesten', 'ofte', 'gir', 'behandling', 'kunnskapsbasert', '.'])
+
+Transcript: Kommunenes oppfølging mot barnehage skole .
+Gold label: kommunenes oppfølging mot barnehage skole 
+SWER: 0.1789519421405504
+Binary-step: 0.16666666666666666
+Case-insensitive SWER 0.1420582377819477
+WER: 0.3333333333333333
+Stop Words: 0.2147423305686605
+(['Kommunenes', 'oppfølging', 'barnehage', 'skole', '.'], ['kommunenes', 'oppfølging', 'barnehage', 'skole', ''])
+
+Transcript: Bolig arbeid avlastning , bpa og fritid er ofte fraværende eller mangelfull .
+Gold label: bolig arbeid avlastning  BPA og fritid er ofte fraværende eller mangelfull .
+SWER: 0.1261016763016113
+Binary-step: 0.15384615384615385
+Case-insensitive SWER 0.06505964959192187
+WER: 0.23076923076923078
+Stop Words: 0.16393217919209466
+(['Bolig', 'arbeid', 'avlastning', ',', 'bpa', 'fritid', 'ofte', 'fraværende', 'mangelfull', '.'], ['bolig', 'arbeid', 'avlastning', '', 'BPA', 'fritid', 'ofte', 'fraværende', 'mangelfull', '.'])
+
+Transcript: Ikke minst har kommunene og pårørende behov for kompetanse og veiledning fra spesialisthelsetjenesten , noe som også er fraværende mange steder  vil statsråden ta initiativ til at behandling og oppfølging av barn , ungdom og voksne med autisme blir helhetlig systematisk og kunnskapsbasert , og første taler er interpellanten .
+Gold label: ikke minst har kommunene og pårørende behov for kompetanse og veiledning fra spesialisthelsetjenesten  noe som også er fraværende mange steder . vil statsråden ta initiativ til at behandling og oppfølging av barn  ungdom og voksne med autisme blir helhetlig systematisk og kunnskapsbasert . og første taler er interpellanten 
+SWER: 0.08120946920129964
+Binary-step: 0.0784313725490196
+Case-insensitive SWER 0.07636010619980306
+WER: 0.11764705882352941
+Stop Words: 0.13428846262723987
+(['minst', 'kommunene', 'pårørende', 'behov', 'kompetanse', 'veiledning', 'spesialisthelsetjenesten', ',', 'fraværende', 'steder', '', 'statsråden', 'ta', 'initiativ', 'behandling', 'oppfølging', 'barn', ',', 'ungdom', 'voksne', 'autisme', 'helhetlig', 'systematisk', 'kunnskapsbasert', ',', 'første', 'taler', 'interpellanten', '.'], ['minst', 'kommunene', 'pårørende', 'behov', 'kompetanse', 'veiledning', 'spesialisthelsetjenesten', '', 'fraværende', 'steder', '.', 'statsråden', 'ta', 'initiativ', 'behandling', 'oppfølging', 'barn', '', 'ungdom', 'voksne', 'autisme', 'helhetlig', 'systematisk', 'kunnskapsbasert', '.', 'første', 'taler', 'interpellanten', ''])
+
+Transcript: Representanten freddy de ruiter .
+Gold label: representanten Freddy de  Ruiter
+SWER: 0.490999247863346
+Binary-step: 0.6
+Case-insensitive SWER 0.28917266627893473
+WER: 0.8
+Stop Words: 0.6137490598291825
+(['Representanten', 'freddy', 'ruiter', '.'], ['representanten', 'Freddy', '', 'Ruiter'])
+
+Transcript: Deretter statsråd Bent Høie .
+Gold label: deretter statsråd Bent Høie .
+SWER: 0.12100905008013293
+Binary-step: 0.2
+Case-insensitive SWER 0.0
+WER: 0.2
+Stop Words: 0.12100905008013293
+(['Deretter', 'statsråd', 'Bent', 'Høie', '.'], ['deretter', 'statsråd', 'Bent', 'Høie', '.'])
+

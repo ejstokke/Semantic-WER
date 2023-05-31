@@ -1,8 +1,16 @@
-Upload to git
-Normalize
+Title?
 
-CLI
-categorize errors (label errors on word level)
-add "severity"
-dataframesssss
-dialekt/kjønnsbasert-eksperimenter
+abstract
+
+Chapter 3: PRIORITY 5
+ - lubos comment
+
+Chapter 5: PRIORITY 2
+ - respondents per question
+
+appendix PRIORITY 4
+ - table for all HWER
+
+Rydde i notebooks
+
+Upload to github

@@ -1,0 +1,147 @@
+[
+    {
+        "transcript": "Man otte og 20 år .",
+        "gold_label": "mann åtteogtyve år .",
+        "hwer": 2.52
+    },
+    {
+        "transcript": "Olaug Nilssen horn er hustra med at jeg har på den nasjonale cc, og hun har nettopp satt opp et stykke som heter stort og stygt .",
+        "gold_label": "Olaug Nilssen hun er husdramatiker på Den Nationale Scene . hun har nettopp satt opp et stykke som heter og Stort og stygt",
+        "hwer": 1.86
+    },
+    {
+        "transcript": "i dag jobber hun tjue prosent er åtti prosent sykemeldt . hun er ikke ulykkelig men hun er sliten .",
+        "gold_label": "I dag jobber hun 20 % , er 80 % sykmeldt , og hun er ikke ulykkelig , men hun er sliten .",
+        "hwer": 4.37
+    },
+    {
+        "transcript": "Kanskje hvert 10 .",
+        "gold_label": "kanskje hvert  tiende",
+        "hwer": 4.76
+    },
+    {
+        "transcript": "Har vi gitt forstår slakk til kommunene ?",
+        "gold_label": "har vi gitt for stor slack til kommunene",
+        "hwer": 2.12
+    },
+    {
+        "transcript": "Det er ikke søtt og møtet hevet .",
+        "gold_label": "det er ikke sett . og møtet  ",
+        "hwer": 1.68
+    },
+    {
+        "transcript": "Er at jeg har en hypotese og den hypotesen gruer på .",
+        "gold_label": "er at jeg har en hypotese . og den hypotesen går ut på",
+        "hwer": 2.22
+    },
+    {
+        "transcript": "Det semi der det fungerer , så tar spesialisthelsetjenesten en aktiv rolle veiledningsrolle .",
+        "gold_label": "det ser vi . der det fungerer så tar spesialisthelsetjeneste en aktiv rolle veiledningsrolle .",
+        "hwer": 2.41
+    },
+    {
+        "transcript": "Elektroniske fagprosedyre for tidlig og intensiv behandling basert på atferdsanalyse det som nå har fått navnet eibi og dette vil og bli publisert på helsebiblioteket i våren tjuesytten , og det er jo et felles .",
+        "gold_label": "elektronisk fagprosedyre for tidlig og intensiv behandling basert på atferdsanalyse det som nå har fått navnet EIBI . og dette vil òg bli publisert på Helsebiblioteket våren tjuesytten og det er jo et felles",
+        "hwer": 4.14
+    },
+    {
+        "transcript": "Men det kommer i en dialog ved hjelp av pasient og brukerombudene som nå og har et ansvar  innenfor dette området .",
+        "gold_label": "ned men komme i en dialog ved hjelp av pasient - og brukerombudene som nå òg har et ansvar inn forbi dette området her .",
+        "hwer": 2.68
+    },
+    {
+        "transcript": "Lyset i tunnelen er nettopp at vi har denne kompetansen .",
+        "gold_label": "lyset i tunnelen er nettopp at vi har denne kompetansen",
+        "hwer": 4.90
+    },
+    {
+        "transcript": "Der oppfølging av våre innbyggere med autisme fungerer preges denne høy kompetanse fra spesialisthelsetjenesten og kommunene .",
+        "gold_label": "der oppfølging av våre innbyggere med autisme fungerer preges den av høy kompetanse fra spesialisthelsetjenesten og kommunene",
+        "hwer": 4.08
+    },
+    {
+        "transcript": "Hun sier jeg er voksen .",
+        "gold_label": "hun sier . jeg er voksen .",
+        "hwer": 3.15
+    },
+    {
+        "transcript": "Læreren min lytter til meg og la meg tenke , selv om jeg tenker seint .",
+        "gold_label": "læreren min lytter til meg og lar meg tenke selv selv om jeg tenker seint .",
+        "hwer": 4.00
+    },
+    {
+        "transcript": "Jeg ønsker meg en jobb .",
+        "gold_label": "jeg ønsker meg en jobb .",
+        "hwer": 4.88
+    },
+    {
+        "transcript": "Jeg har hatt 17 forskjellige arbeidsgivere , kommer i konflikt og forstår dårlig kollegaene mine .",
+        "gold_label": "jeg har hatt sytten forskjellige arbeidsgivere kommer i konflikt og forstår dårlig kollegaene mine .",
+        "hwer": 4.07
+    },
+    {
+        "transcript": "Jeg har reist fra 3 samboer og 5 barn .",
+        "gold_label": "jeg har reist fra tre samboere og fem barn .",
+        "hwer": 4.26
+    },
+    {
+        "transcript": "Kommunen vår har ingen kunnskap om alibi .",
+        "gold_label": "kommunen vår har ingen kunnskap om EIBI tidligere",
+        "hwer": 1.46
+    },
+    {
+        "transcript": "Vi vurderer om vi var rime og opp familien si opp jobber og flytte til en plass vi kan få hjelp , og det vises vilje til at det blir gitt tjenester som vil gi ham mulighet til utvikling og språk .",
+        "gold_label": "vi vurderer om vi  må rive opp familien si opp jobber og flytte til en plass vi kan få hjelp  og det vises vilje til at det blir gitt tjenester som vil gi han mulighet til utvikling og språk .",
+        "hwer": 2.83
+    },
+    {
+        "transcript": "Og det er stor variasjon i hvordan mennesker med autisme fungerer i hverdagslivet .",
+        "gold_label": "og det er stor variasjon i hvordan mennesker med autisme fungerer i hverdagslivet .",
+        "hwer": 4.89
+    },
+    {
+        "transcript": "Det skjer allerede en positiv utvikling i noen kommuner .",
+        "gold_label": "det skjer allerede en positiv utvikling i noen kommuner .",
+        "hwer": 4.85
+    },
+    {
+        "transcript": "Vi er nødt til å lære mer av de som har funnet gode modeller og løsninger fra mennesker med sammensatte behov .",
+        "gold_label": "vi er nødt  å lære mer av de som har funnet gode modeller og løsninger for mennesker med sammensatte behov .",
+        "hwer": 4.23
+    },
+    {
+        "transcript": "Denne debatten har vi hatt med jevne mellomrom de siste årene , uten at vi har kommet helt i mål .",
+        "gold_label": "denne debatten har vi hatt med jevne mellomrom de siste årene  uten at vi har kommet helt i mål .",
+        "hwer": 4.80
+    },
+    {
+        "transcript": "Savner nok au eit system for å sikre kvalitet i tjenestene .",
+        "gold_label": "jeg savner nok au et system for å sikre kvalitet i tjenestene .",
+        "hwer": 4.38
+    },
+    {
+        "transcript": "Bare å understreke et par poeng .",
+        "gold_label": "jeg bare understreke et par poeng .",
+        "hwer": 3.20
+    },
+    {
+        "transcript": "De er det bare å bruke, så jeg er glad for det .",
+        "gold_label": "de er det bare å bruke . så er jeg òg glad for det",
+        "hwer": 3.85
+    },
+    {
+        "transcript": "Sak 2 er referat og det foreligger ikke referat, og dermed er Dagens kart ferdigbehandlet .",
+        "gold_label": "sak to er referat og det foreligger ikke referat og dermed er dagens kart ferdigbehandlet .",
+        "hwer": 4.46
+    },
+    {
+        "transcript": "Berre 25 % av utviklingshemma i yrkesaktiv alder er i jobb .",
+        "gold_label": "berre femogtjue prosent av utviklingshemma i yrkesaktiv alder er i jobb .",
+        "hwer": 4.71
+    },
+    {
+        "transcript": "Er pappa til en gutt på 6 år med autisme .",
+        "gold_label": "jeg er pappa til en gutt på seks år med autisme .",
+        "hwer": 4.07
+    }
+]
